@@ -25,7 +25,7 @@ main: $(OBJS)
 	[ -d $(BUILD_DIR) ] || mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) $(OBJS) -o $(PROG)
 
-$(OBJS): $(SOURCE) $(HEADERS)
+$(OBJS): $(SOURCE)
 	[ -d $(OBJS_DIR) ] || mkdir -p $(OBJS_DIR)
 	$(CC) $(CFLAGS) -c $(SOURCE)
 
