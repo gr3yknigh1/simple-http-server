@@ -1,13 +1,9 @@
-# c template
-
-Sample C project.
+# Simple HTTP Server
 
 ## Requirements
 
 - GCC compilator
 - GNU Make
-
-> NOTE: It's possible to replace compilator. Just change `CC` variable in `Makefile` and be sure all flags was matched by your compilator.
 
 ## Run
 
